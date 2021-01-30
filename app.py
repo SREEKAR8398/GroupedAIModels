@@ -9,6 +9,8 @@ def deep_learning_char():
     import cv2
     import numpy as np
     from tensorflow.keras.models import load_model
+    import matplotlib
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from streamlit_drawable_canvas import st_canvas
     st.title("Handwritten Character Recognition using Neural Nerwork")
@@ -50,6 +52,8 @@ def deep_learning_digit():
     import cv2
     import numpy as np
     from tensorflow.keras.models import load_model
+    import matplotlib
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     from streamlit_drawable_canvas import st_canvas
     st.title("Handwritten Digit Recognition using Neural Nerwork")
